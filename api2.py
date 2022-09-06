@@ -33,7 +33,7 @@ def json():
     jpre={'pre':fpre}
     print(pre)
     r = make_response(jpre)
-    r.mimetype = 'application/'
+    r.mimetype = 'application/json'
     return r
 
     #print(data['IFW'])
