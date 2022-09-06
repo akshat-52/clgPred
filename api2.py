@@ -17,7 +17,7 @@ model = pickle.load(open('jeemodel1.pkl', 'rb'))
 
 
 
-@app.route('/json',methods=['POST'])
+@app.route('/',methods=['POST'])
 def json():
     # if request.method == 'POST':
    # data = request.get_json()
